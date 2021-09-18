@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("moduleB"),console.log("moduleC"),console.log("moduleD"),console.log("moduleF")})();
