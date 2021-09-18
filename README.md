@@ -35,9 +35,9 @@ export { bar };
 
 ## まとめ
 
-tree-sharkingはどちらも効く。
-複数moduleをexportする場合は、検索性が優れるためnamed exportしたほうが良さそう。
-単一moduleをexportする場合は、default exportしても困るほどではなさそう。
-default exportはファイル末尾で行ったほうが親切ではある。
-module名を省略してdefault exportするのは禁止したい。
+- tree-sharkingはどちらも効く。
+- 複数moduleをexportする場合は、検索性が優れるためnamed exportしたほうが良さそう。
+- 単一moduleをexportする場合は、default exportしても困るほどではなさそう。
+- default exportはファイル末尾で行ったほうが親切ではある。
+- module名を省略してdefault exportするのは禁止したい。
 
